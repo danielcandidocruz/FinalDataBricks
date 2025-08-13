@@ -1,0 +1,98 @@
+[2025-08-06T09:59:23.151-0300] {processor.py:161} INFO - Started process (PID=102062) to work on /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T09:59:23.165-0300] {processor.py:830} INFO - Processing file /root/airflow/dags/extraindo-taxas.py for tasks to queue
+[2025-08-06T09:59:23.179-0300] {logging_mixin.py:188} INFO - [2025-08-06T09:59:23.177-0300] {dagbag.py:538} INFO - Filling up the DagBag from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T09:59:23.236-0300] {logging_mixin.py:188} INFO - [2025-08-06T09:59:23.211-0300] {dagbag.py:348} ERROR - Failed to import: /root/airflow/dags/extraindo-taxas.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/airflow/dags/extraindo-taxas.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2025-08-06T09:59:23.237-0300] {processor.py:842} WARNING - No viable dags retrieved from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T09:59:23.445-0300] {processor.py:183} INFO - Processing /root/airflow/dags/extraindo-taxas.py took 0.329 seconds
+[2025-08-06T10:01:04.128-0300] {processor.py:161} INFO - Started process (PID=102539) to work on /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:01:04.131-0300] {processor.py:830} INFO - Processing file /root/airflow/dags/extraindo-taxas.py for tasks to queue
+[2025-08-06T10:01:04.133-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:01:04.133-0300] {dagbag.py:538} INFO - Filling up the DagBag from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:01:04.149-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:01:04.143-0300] {dagbag.py:348} ERROR - Failed to import: /root/airflow/dags/extraindo-taxas.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/airflow/dags/extraindo-taxas.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2025-08-06T10:01:04.151-0300] {processor.py:842} WARNING - No viable dags retrieved from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:01:04.221-0300] {processor.py:183} INFO - Processing /root/airflow/dags/extraindo-taxas.py took 0.104 seconds
+[2025-08-06T10:01:40.089-0300] {processor.py:161} INFO - Started process (PID=102571) to work on /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:01:40.098-0300] {processor.py:830} INFO - Processing file /root/airflow/dags/extraindo-taxas.py for tasks to queue
+[2025-08-06T10:01:40.103-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:01:40.102-0300] {dagbag.py:538} INFO - Filling up the DagBag from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:01:40.113-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:01:40.110-0300] {dagbag.py:348} ERROR - Failed to import: /root/airflow/dags/extraindo-taxas.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/airflow/dags/extraindo-taxas.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2025-08-06T10:01:40.114-0300] {processor.py:842} WARNING - No viable dags retrieved from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:01:40.203-0300] {processor.py:183} INFO - Processing /root/airflow/dags/extraindo-taxas.py took 0.124 seconds
+[2025-08-06T10:02:33.428-0300] {processor.py:161} INFO - Started process (PID=102601) to work on /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:02:33.477-0300] {processor.py:830} INFO - Processing file /root/airflow/dags/extraindo-taxas.py for tasks to queue
+[2025-08-06T10:02:33.479-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:02:33.478-0300] {dagbag.py:538} INFO - Filling up the DagBag from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:02:33.485-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:02:33.483-0300] {dagbag.py:348} ERROR - Failed to import: /root/airflow/dags/extraindo-taxas.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/airflow/dags/extraindo-taxas.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2025-08-06T10:02:33.486-0300] {processor.py:842} WARNING - No viable dags retrieved from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:02:34.013-0300] {processor.py:183} INFO - Processing /root/airflow/dags/extraindo-taxas.py took 0.594 seconds
+[2025-08-06T10:04:00.069-0300] {processor.py:161} INFO - Started process (PID=102646) to work on /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:04:00.087-0300] {processor.py:830} INFO - Processing file /root/airflow/dags/extraindo-taxas.py for tasks to queue
+[2025-08-06T10:04:00.098-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:04:00.091-0300] {dagbag.py:538} INFO - Filling up the DagBag from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:04:00.130-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:04:00.117-0300] {dagbag.py:348} ERROR - Failed to import: /root/airflow/dags/extraindo-taxas.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/airflow/dags/extraindo-taxas.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2025-08-06T10:04:00.131-0300] {processor.py:842} WARNING - No viable dags retrieved from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:04:00.357-0300] {processor.py:183} INFO - Processing /root/airflow/dags/extraindo-taxas.py took 0.322 seconds
+[2025-08-06T10:04:53.425-0300] {processor.py:161} INFO - Started process (PID=102684) to work on /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:04:53.438-0300] {processor.py:830} INFO - Processing file /root/airflow/dags/extraindo-taxas.py for tasks to queue
+[2025-08-06T10:04:53.441-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:04:53.440-0300] {dagbag.py:538} INFO - Filling up the DagBag from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:04:53.471-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:04:53.458-0300] {dagbag.py:348} ERROR - Failed to import: /root/airflow/dags/extraindo-taxas.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/airflow/dags/extraindo-taxas.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2025-08-06T10:04:53.472-0300] {processor.py:842} WARNING - No viable dags retrieved from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:04:53.597-0300] {processor.py:183} INFO - Processing /root/airflow/dags/extraindo-taxas.py took 0.202 seconds
+[2025-08-06T10:06:05.530-0300] {processor.py:161} INFO - Started process (PID=102716) to work on /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:06:05.559-0300] {processor.py:830} INFO - Processing file /root/airflow/dags/extraindo-taxas.py for tasks to queue
+[2025-08-06T10:06:05.562-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:06:05.561-0300] {dagbag.py:538} INFO - Filling up the DagBag from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:06:05.584-0300] {logging_mixin.py:188} INFO - [2025-08-06T10:06:05.580-0300] {dagbag.py:348} ERROR - Failed to import: /root/airflow/dags/extraindo-taxas.py
+Traceback (most recent call last):
+  File "/root/airflow_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/airflow/dags/extraindo-taxas.py", line 2, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2025-08-06T10:06:05.585-0300] {processor.py:842} WARNING - No viable dags retrieved from /root/airflow/dags/extraindo-taxas.py
+[2025-08-06T10:06:05.693-0300] {processor.py:183} INFO - Processing /root/airflow/dags/extraindo-taxas.py took 0.184 seconds
