@@ -3,7 +3,7 @@ Este projeto demonstra o uso prático da plataforma Databricks, aplicando concei
 
 ✨ Funcionalidades
 
-🐍 Manipulação de dados: Python, SQL e Pandas no Databricks.
+🐍 Manipulação de dados: Spark, SQL e Pandas no Databricks.
 
 📂 Formatos de arquivo: JSON, CSV, TXT, AVRO, Parquet e ORC.
 
