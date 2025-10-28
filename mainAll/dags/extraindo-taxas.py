@@ -4,7 +4,7 @@ from datetime import datetime
 
 with DAG(
   'Executando-notebook-etl',
-  start_date=datetime(2023, 6, 1), 
+  start_date=datetime(2025, 6, 1), 
   schedule_interval="0 9 * * *",  # Todos os dias as 9 da manhã
   ) as dag_executando_notebook_extracao:
     
@@ -20,7 +20,7 @@ with DAG(
     databricks_conn_id = 'databricks_default',
     job_id = "11111111111"
   )
-    
+  
     enviando_relatorio = DatabricksRunNowOperator(
     task_id = 'enviando-relatorio',
     databricks_conn_id = 'databricks_default',
